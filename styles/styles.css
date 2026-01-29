@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url(../fonts/Gilroy-Bold.ttf) format(truetype);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url(../fonts/Gilroy-Medium.ttf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url(../fonts/Gilroy-Regular.ttf) format(truetype);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url(../fonts/Gilroy-SemiBold.ttf) format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+  --text: rgba(12, 12, 12, 0.7);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: var(--main);
+}
+
+button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+}
+
+/* #region header */
+
+.logo {
+  font-size: 20px;
+  color: var(--main);
+}
+
+.nav {
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--main);
+}
+
+/* #endregion header */
+
+/* #region hero */
+
+.hero-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  color: var(--main);
+}
+
+.hero-button {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  border: none;
+}
+
+/* #endregion hero */
+
+/* #region catalog */
+.catalog-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--main);
+}
+
+.catalog-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  color: rgba(12, 12, 12, 0.5);
+}
+/* #endregion catalog */
+
+/* #region sale */
+
+/* #endregion sale */
