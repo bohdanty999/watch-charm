@@ -1,28 +1,28 @@
 @font-face {
-  font-family: "Gilroy", sans-serif;
-  src: url(../fonts/Gilroy-Bold.ttf) format(truetype);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gilroy", sans-serif;
-  src: url(../fonts/Gilroy-Medium.ttf) format(truetype);
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy", sans-serif;
-  src: url(../fonts/Gilroy-Regular.ttf) format(truetype);
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy", sans-serif;
-  src: url(../fonts/Gilroy-SemiBold.ttf) format(truetype);
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold.woff");
   font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -66,11 +66,12 @@ h2 {
   color: var(--main);
 }
 
-button {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  text-align: center;
+.accent {
+  color: var(--accent);
+}
+
+.accent-grey {
+  color: rgba(251, 251, 251, 0.5);
 }
 
 /* #region header */
@@ -93,7 +94,7 @@ button {
 .hero-title {
   font-weight: 600;
   font-size: 72px;
-  line-height: 0.875;
+  line-height: 0.9;
   color: var(--main);
 }
 
@@ -104,11 +105,29 @@ button {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   border: none;
+  background-color: transparent;
 }
 
 /* #endregion hero */
 
+/* #region about-us */
+
+.about-us-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--background);
+  background-color: var(--accent);
+  border-radius: 16px;
+  border: none;
+  padding: 15px 37px;
+  width: 160px;
+}
+
+/*  #endregion about-us */
+
 /* #region catalog */
+
 .catalog-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -122,8 +141,130 @@ button {
   line-height: 1.28;
   color: rgba(12, 12, 12, 0.5);
 }
+
 /* #endregion catalog */
+
+/* #region contact-us*/
+
+.contact-us-title {
+  color: var(--background);
+}
+
+.contact-us-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 40px;
+  padding: 15px 43px;
+}
+/* #endregion contact-us*/
 
 /* #region sale */
 
+.sale-description-container {
+  background-color: #3350e9;
+}
+
+.sale-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.12;
+  color: var(--background);
+}
+
+.sale-product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-current-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--background);
+}
+
+.sale-old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-item-description {
+  color: var(--background);
+}
+
+.sale-item-pros {
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
 /* #endregion sale */
+
+/* #region reviews */
+
+.reviews-subtitle {
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--main);
+}
+
+.reviews-paragraph {
+  color: rgba(12, 12, 12, 0.4);
+}
+/* #endregion reviews */
+
+/* #region form */
+
+.form-instruction {
+  color: rgba(12, 12, 12, 0.7);
+}
+
+/* #endregion form */
+
+/* #region footer */
+
+.footer {
+  background-color: #0c0c0c;
+}
+
+.footer-logo {
+  font-size: 20px;
+  color: var(--background);
+}
+
+.footer-paragraph {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  color: var(--background);
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+}
+
+.footer-nav-item {
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+}
+
+.footer-agreements {
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.5);
+}
+/* #endregion footer */
