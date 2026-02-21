@@ -18,7 +18,9 @@
           <a class="logo" href="index.html">watchcharm</a>
           <nav class="nav">
             <ul class="nav-list">
-              <li><a class="nav-link" href="#">Home</a></li>
+              <li>
+                <a class="nav-link is-active" href="./index.html">Home</a>
+              </li>
               <li><a class="nav-link" href="#">About Us</a></li>
               <li><a class="nav-link" href="#">Catalog</a></li>
               <li><a class="nav-link" href="#">Sale</a></li>
@@ -176,46 +178,89 @@
       <section class="section">
         <div class="container">
           <h2>Sale</h2>
-          <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-          </ul>
-          <div class="sale-description-container">
-            <h3 class="sale-title">MARQ® Commander (Gen 2) - Carbon Edition</h3>
-            <p class="sale-product-tag">Product tag: 706587</p>
-            <p class="sale-current-price">€1500</p>
-            <p class="sale-old-price">€3000</p>
-            <p class="sale-item-description">
-              The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
-              smartwatch for adventurers that takes materials and features to
-              the next level. The body of the watch is made of very durable
-              Fused Carbon Fiber material and has a precise AMOLED touch screen.
-              The sensitive touch screen is complemented by buttons that can be
-              used in any conditions.
-            </p>
-            <ul>
-              <li>
-                <h4 class="sale-item-pros">Fused carbon fiber</h4>
-              </li>
-              <li>
-                <h4 class="sale-item-pros">Grade-5 Titanuim</h4>
-              </li>
-              <li>
-                <h4 class="sale-item-pros">Athlete</h4>
-              </li>
-              <li>
-                <h4 class="sale-item-pros">Golfer</h4>
-              </li>
-              <li>
-                <h4 class="sale-item-pros">Commander</h4>
-              </li>
-              <li>
-                <h4 class="sale-item-pros">Adventurer</h4>
-              </li>
-            </ul>
+
+          <div class="sale-wrapper">
+            <div class="picture-wrapper">
+              <ul class="picture-list">
+                <li class="picture-list-item">
+                  <img
+                    width="96"
+                    height="100"
+                    src="./images/sale/second-pic.png"
+                    alt="Watch side"
+                  />
+                </li>
+                <li class="picture-list-item">
+                  <img
+                    width="96"
+                    height="100"
+                    src="./images/sale/third-pic.png"
+                    alt="Watch back"
+                  />
+                </li>
+                <li class="picture-list-item">
+                  <img
+                    width="96"
+                    height="100"
+                    src="./images/sale/fourth-pic.png"
+                    alt="Different watch face"
+                  />
+                </li>
+                <li class="picture-list-item">
+                  <img
+                    width="96"
+                    height="100"
+                    src="./images/sale/fifth-pic.png"
+                    alt="Different watch face"
+                  />
+                </li>
+              </ul>
+              <img
+                class="main-picture"
+                src="./images/sale/first-pic.png"
+                alt="Watch face"
+                width="328"
+                height="398"
+              />
+            </div>
+            <div class="sale-description-container">
+              <h3 class="sale-title">
+                MARQ® Commander (Gen 2) - Carbon Edition
+              </h3>
+              <span class="sale-product-tag">Product tag: 706587</span>
+              <div class="prices">
+                <p class="sale-current-price">€1500</p>
+                <span class="sale-old-price">€3000</span>
+              </div>
+              <p class="sale-item-description">
+                The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
+                smartwatch for adventurers that takes materials and features to
+                the next level. The body of the watch is made of very durable
+                Fused Carbon Fiber material and has a precise AMOLED touch
+                screen. The sensitive touch screen is complemented by buttons
+                that can be used in any conditions.
+              </p>
+              <ul class="sale-pros-list">
+                <li>
+                  <h4 class="sale-pros-item">Fused carbon fiber</h4>
+                </li>
+                <li>
+                  <h4 class="sale-pros-item">Grade-5 Titanuim</h4>
+                </li>
+                <li>
+                  <h4 class="sale-pros-item">Athlete</h4>
+                </li>
+                <li>
+                  <h4 class="sale-pros-item">Golfer</h4>
+                </li>
+                <li>
+                  <h4 class="sale-pros-item">Commander</h4>
+                </li>
+                <li>
+                  <h4 class="sale-pros-item">Adventurer</h4>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -226,9 +271,14 @@
       <section class="section">
         <div class="container">
           <h2>Reviews</h2>
-          <ul>
-            <li>
-              <img src="./images/reviews/john.png" alt="John" />
+          <ul class="reviews-list">
+            <li class="reviews-list-item">
+              <img
+                width="56"
+                height="56"
+                src="./images/reviews/john.png"
+                alt="John"
+              />
               <h3 class="reviews-subtitle">John Wax</h3>
               <p class="reviews-paragraph">
                 Buying a watch from was the best choice for me. The design is
@@ -236,8 +286,13 @@
                 nicely on the hand, and the mechanism works flawlessly.
               </p>
             </li>
-            <li>
-              <img src="./images/reviews/victoria.png" alt="victoria" />
+            <li class="reviews-list-item">
+              <img
+                width="56"
+                height="56"
+                src="./images/reviews/victoria.png"
+                alt="victoria"
+              />
               <h3 class="reviews-subtitle">Victoria Romashenko</h3>
               <p class="reviews-paragraph">
                 Can't take my eyes off my watch from. Every time I put it on, it
@@ -245,8 +300,10 @@
                 to detail make it a real gem among my accessories.
               </p>
             </li>
-            <li>
+            <li class="reviews-list-item">
               <img
+                width="56"
+                height="56"
                 src="./images/reviews/anastasia-trachuk.png"
                 alt="anastasia"
               />
@@ -267,12 +324,48 @@
       <section class="section form-section">
         <div class="container">
           <h2>Contact Us</h2>
-          <p class="form-instruction">
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
-          <!-- form -->
-          <img src="./images/contact-us/Rectangle 11 (1).jpg" alt="" />
+          <div class="form-section-wrapper">
+            <div class="form-wrapper">
+              <p class="form-instruction">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly.
+              </p>
+              <form class="form-input-wrapper">
+                <input
+                  class="form-element"
+                  type="text"
+                  aria-label="Name"
+                  name="user_name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="form-element"
+                  type="email"
+                  name="user_email"
+                  aria-label="Your E-mail"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  class="form-element"
+                  type="tel"
+                  name="user_tel"
+                  aria-label="Phone number"
+                  placeholder="+380"
+                  required
+                />
+                <textarea
+                  class="form-element textarea"
+                  name="comment"
+                  id="comment"
+                  placeholder="Comment"
+                ></textarea>
+                <button class="form-btn" type="submit">Send</button>
+              </form>
+            </div>
+            <img src="./images/contact-us/Rectangle 11 (1).jpg" alt="" />
+          </div>
         </div>
       </section>
       <!-- #endregion form -->
@@ -281,57 +374,71 @@
     <!-- #region footer -->
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="./index.html">watchcharm</a>
-        <ul>
-          <li>
-            <a href="">
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href=""
-              ><svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <p class="footer-paragraph">
-          Have the time of your life with our watches: where high-class
-          craftsmanship meets impeccable design
-        </p>
-        <a class="footer-address" href="tel:+380684439426"
-          >+380 (68) 443-94-26</a
-        >
-        <ul>
-          <li class="footer-nav-item"><a href="">Home</a></li>
-          <li class="footer-nav-item"><a href="">About Us</a></li>
-          <li class="footer-nav-item"><a href="">Catalog</a></li>
-          <li class="footer-nav-item"><a href="">Sale</a></li>
-          <li class="footer-nav-item"><a href="">Reviews</a></li>
-          <li class="footer-nav-item"><a href="">Contact Us</a></li>
-        </ul>
-        <address>
-          <a class="footer-address" href=""
-            >1678 S. Pioneer Road Salt Lake City UT 84104</a
-          >
-        </address>
-        <p class="footer-agreements">
-          &copy2023 The Watch Spot. All rights reserved.
-        </p>
-        <ul>
-          <li class="footer-agreements"><a href="">Terms of Service</a></li>
-          <li class="footer-agreements"><a href="">Privacy Policy</a></li>
-        </ul>
+        <div class="footer-container">
+          <div class="footer-upper-section">
+            <div class="footer-logo-wrapper">
+              <a class="footer-logo" href="./index.html">watchcharm</a>
+              <ul class="footer-icon-list">
+                <li>
+                  <a class="footer-icon-link" href="" target="_blank">
+                    <svg class="footer-icon" width="20px" height="20px">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-icon-link" href="" target="_blank"
+                    ><svg class="footer-icon" width="20px" height="20px">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-icon-link" href="" target="_blank">
+                    <svg class="footer-icon" width="20px" height="20px">
+                      <use href="./images/icons.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <p class="footer-paragraph">
+              Have the time of your life with our watches: where high-class
+              craftsmanship meets impeccable design
+            </p>
+            <a class="footer-tel" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </div>
+          <div class="footer-middle-section">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a href="">Home</a></li>
+              <li class="footer-nav-item"><a href="">About Us</a></li>
+              <li class="footer-nav-item"><a href="">Catalog</a></li>
+              <li class="footer-nav-item"><a href="">Sale</a></li>
+              <li class="footer-nav-item"><a href="">Reviews</a></li>
+              <li class="footer-nav-item"><a href="">Contact Us</a></li>
+            </ul>
+            <address>
+              <a
+                target="_blank"
+                class="footer-address"
+                href="https://maps.app.goo.gl/7Xs8b7ZEQ3jjxS5M9"
+                >1678 S. Pioneer Road Salt Lake City UT 84104</a
+              >
+            </address>
+          </div>
+          <span class="horizontal-line"></span>
+          <div class="footer-terms-wrapper">
+            <p class="footer-agreements">
+              &copy 2023 The Watch Spot. All rights reserved.
+            </p>
+            <ul class="footer-terms-list">
+              <li class="footer-agreements"><a href="">Terms of Service</a></li>
+              <li class="footer-agreements"><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
 
